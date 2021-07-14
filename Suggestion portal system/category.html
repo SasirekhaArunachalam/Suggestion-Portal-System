@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1
+{
+font-size:30px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+</head>
+<body><br>
+<br>
+<center><b><h1>Hey Peepzz...!! LETZZ HAve SoMee FuNnn....</b></center></h1><br><br><br>
+<center><form action="createpoll.html" method="POST">
+<button type="submit" class="button"><b>CREATE POLL</b></button><br><br>
+</form>
+<form action="sample.php" method="POST">
+<button type="submit" class="button"><b>VIEW POLLS</b></button>
+</form>
+</center>
+</body>
+</html
